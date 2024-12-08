@@ -1,0 +1,100 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    font-size: 8px;
+    min-height: 200px;
+
+
+}
+
+.card {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.buy-button {
+    background-color: #fd7f20;
+    color: white;
+    width: 75px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.plane {
+    width: 10px;
+    height: 10px;
+    margin-top: 1px;
+    transform: rotate(45deg);
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+}
+
+.lower {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.header {
+    font-size: 16px;
+
+}
+
+.arrival {
+    margin-left: 20px;
+}
+
+.moving {
+    display: flex;
+    align-items: center;
+    justify-content: column;
+    margin-top: 5px;
+}
+
+.line {
+    width: 40px;
+    height: 1px;
+    margin-left: 10px;
+    background-color: lightgray;
+    display: inline-block;
+
+}
+
+.upper {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.right {
+    margin-left: 10px;
+    text-align: center;
+    flex: 1;
+}
+
+.left {
+    border-right: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 120px;
+
+}
+
+.carrier-logo {
+    width: 75px;
+    height: auto;
+}
